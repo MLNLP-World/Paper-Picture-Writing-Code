@@ -35,7 +35,7 @@
         \node [anchor=north] (inputs) at ([yshift=-3em]sa1.south) {\begin{CJK*}{UTF8}{gbsn}\scriptsize{$\textbf{ 我\ \ 很\ \ 好}$}\end{CJK*}};
         \node [anchor=south] (encoder) at ([xshift=0.2em,yshift=0.6em]res2.north west) {\scriptsize{\textbf{Encoder}}};
         
-        ""对encoder端的组成部分进行连接""
+        % ""对encoder端的组成部分进行连接""
         \draw [->] (sa1.north) -- (res1.south);
         \draw [->] (res1.north) -- (ffn1.south);
         \draw [->] (ffn1.north) -- (res2.south);
@@ -76,7 +76,7 @@
     \draw[->,standard] ([yshift=0.5em]res4.north) -- ([xshift=4em,yshift=0.5em]res4.north) -- ([xshift=4em,yshift=3.3em]res4.north) -- ([xshift=3.5em,yshift=3.3em]res4.north);
 
     \draw[->,standard] (res2.north) -- ([yshift=0.5em]res2.north) -- ([xshift=5em,yshift=0.5em]res2.north) -- ([xshift=5em,yshift=-2.2em]res2.north) -- ([xshift=6.5em,yshift=-2.2em]res2.north);
-    \node [ugreen,font=\scriptsize] (count) at ([xshift=-1.5em,yshift=-1em]encoder.south) {$6\times$};
+    \node [green,font=\scriptsize] (count) at ([xshift=-1.5em,yshift=-1em]encoder.south) {$6\times$};
     \node [red,font=\scriptsize] (count) at ([xshift=10.8em,yshift=0em]decoder.south) {$\times 6$};
     \end{tikzpicture}
     \caption{The overall architecture of Transformer which follows the encoder-decoder paradigm.}
