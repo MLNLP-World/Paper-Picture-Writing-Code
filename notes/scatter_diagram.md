@@ -1,7 +1,6 @@
-# 2. 如何绘制美妙的散点图
+# 如何绘制美妙的散点图
 
 <div align=center><img  src ="../imgs/notes/plot.jpg"/></div> 
-
 
 
 本章节主要介绍如何采用latex绘制散点图。这里主要采用的package是pgfplots。 故首先要引用该包如下：
