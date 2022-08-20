@@ -22,11 +22,11 @@ Example：<code>\node[thick, rectangle, fill=blue, fill opacity=0.5, dashed] (ex
 
 其输出如下图所示。
 
-![](./1.png "Example")
+![](../imgs/notes/1.png "Example")
 
 ### 从0到1绘制深度学习模型图
 本章节我们将以Transformer模型（如下图所示）为例，进行实战讲解。
-<div align=center><img width = '300' height =300' src ="../imgs/category/transformer.png"/></div>
+<div align=center><img width = '300' height =300' src ="../imgs/notes/transformer.png"/></div>
 
 
 
@@ -71,7 +71,7 @@ Encoder:
     \draw [->] ([yshift=-1em]sa1.south) -- (sa1.south);
     \draw [->] ([yshift=-0.3em]inputs.north) -- ([yshift=0.6em]inputs.north);
 ~~~
-<div align=center><img  src ="../imgs/category/1_step2.png"/></div> 
+<div align=center><img  src ="../imgs/notes/1_step2.png"/></div> 
 通过上述步骤，我们成功将不同的基本单元安置在其特定的位置上，并将其按照相应逻辑连接起来。上述代码本质上就是许多\node 命令的堆叠，并辅以连接线连接。然而在日常使用中，我们为了方便，许多时候都采用这样一种设计思想：选取一个固定点，并由该点进一步向四周扩散开来的绘图方式。 在上述代码中，我们选取的固定的为sa1， 其坐标是（0，0），其余的点都由其通过一定的偏移得到。   
 
 由此又延伸出一个新的问题，如何高效地书写偏移代码，而不是通过线下独立计算得到。给定一个基准点A， 和一个点B, 其中B由A偏移S =（s_x, s_y）得到，点B的通用计算方法如下： B = A + S。  相应地，其对应的tikz代码如下：
@@ -123,5 +123,5 @@ Encoder-Decoder:
     \node [red,font=\scriptsize] (count) at ([xshift=10.8em,yshift=0em]decoder.south) {$\times 6$};
 ~~~
 
-<div align=center><img  src ="../imgs/category/transformer.png"/></div> 
+<div align=center><img  src ="../imgs/notes/transformer.png"/></div> 
 

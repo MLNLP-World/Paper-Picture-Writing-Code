@@ -1,6 +1,6 @@
 # 2. 如何绘制美妙的散点图
 
-<div align=center><img  src ="../imgs/category/plot.jpg"/></div> 
+<div align=center><img  src ="../imgs/notes/plot.jpg"/></div> 
 
 
 
@@ -71,7 +71,7 @@ yticklabel style={/pgf/number format/precision=1, /pgf/number format/fixed zerof
 
 该命令将精度设置为小数点后一位。
 
-<div align=center><img  src ="../imgs/category/2_step1.jpg"/></div> 
+<div align=center><img  src ="../imgs/notes/2_step1.jpg"/></div> 
 
 
 Step 2：将坐标点置于画布之上。 这一部分我们主要采用的是addplot命令， 具体如下：
@@ -96,7 +96,7 @@ Step 2：将坐标点置于画布之上。 这一部分我们主要采用的是a
 
 \addplot命令的核心部分是 coordinates {}，正常情况下，我们只需要将对应的点坐标按照（x y） 的格式进行填写即可。 其中 \addplot[params] 的 params主要用于调整点的尺寸、点填充颜色以及点的形状。
 
-<div align=center><img  src ="../imgs/category/2_step2.jpg"/></div> 
+<div align=center><img  src ="../imgs/notes/2_step2.jpg"/></div> 
 
 
 Step 3： 绘制annotations以及表格的嵌入。这一部分主要采用的核心代码是基于node命令的。具体来说，我们只需要将node命令中{}中填充annotations名称或者表格即可。这里不再赘述，只提供相应的代码，如下：
@@ -128,7 +128,7 @@ Step 3： 绘制annotations以及表格的嵌入。这一部分主要采用的�
         };
 ~~~
 
-<div align=center><img  src ="../imgs/category/plot.jpg"/></div> 
+<div align=center><img  src ="../imgs/notes/plot.jpg"/></div> 
 
 # 总结
 
