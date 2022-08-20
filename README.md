@@ -2,6 +2,29 @@
 <p align="center">
 <h1 align="center"> <img src="./imgs/icon/ai.png" width="30" />Paper Picture Writing Code</h1>
 </p>
+
+<p align="center">
+  	<a href="https://img.shields.io/badge/version-v0.1.0-blue">
+      <img alt="version" src="https://img.shields.io/badge/version-v0.1.0-blue?color=FF8000?color=009922" />
+    </a>
+  <a >
+       <img alt="Status-building" src="https://img.shields.io/badge/Status-building-blue" />
+  	</a>
+  <a >
+       <img alt="PRs-Welcome" src="https://img.shields.io/badge/PRs-Welcome-red" />
+  	</a>
+   	<a href="https://github.com/MLNLP-World/Paper-Picture-Writing-Code/stargazers">
+       <img alt="stars" src="https://img.shields.io/github/stars/MLNLP-World/Paper-Picture-Writing-Code" />
+  	</a>
+  	<a href="https://github.com/MLNLP-World/Paper_Writing_Tips/network/members">
+       <img alt="FORK" src="https://img.shields.io/github/forks/MLNLP-World/Paper-Picture-Writing-Code?color=FF8000" />
+  	</a>
+    <a href="https://github.com/MLNLP-World/Paper-Picture-Writing-Code/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/MLNLP-World/Paper-Picture-Writing-Code?color=0088ff"/>
+    </a>
+    <br />
+</p>
+
 <div align="center">
 <p align="center">
   <a href="#项目动机">项目动机</a>/
@@ -15,11 +38,12 @@
 </div>
 
 
+
 ---
 
 ## <img src="./imgs/icon/motivation.png" width="25" />项目动机
 
-对于很多科研新手来说论文图片的绘制常常成为论文写作中一大难题，图像失真、图示不合规范等问题会导致论文质量的降低，LaTex原生支持的图包绘制的矢量图具有不会出现失真、便于实时修改和维护等优点，为了帮助一些同学提高论文写作画图的质量和效率、学会更好地利用**LaTex画图**，本项目基于**LaTex**开源论文中常用的**画图代码**，希望能对大家的论文写作图片绘制有所帮助。该项目部分代码参考了 [MT Book](https://github.com/NiuTrans/MTBook)。MT Book是一本高质量的机器翻译书籍，文中所有的latex代码已经开源，也可以作为大家latex画图的一个参考。
+对于很多科研新手来说论文图片的绘制常常成为论文写作中一大难题，图像失真、图示不合规范等问题会导致论文质量的降低，LaTex原生支持的图包绘制的矢量图具有不会出现失真、便于实时修改和维护等优点，为了帮助一些同学提高论文写作画图的质量和效率、学会更好地利用**LaTex画图**，本项目基于**LaTex**开源论文中常用的**画图代码**，希望能对大家的论文写作图片绘制有所帮助。文中所有的latex代码已经开源，也可以作为大家latex画图的一个参考。
 
 >本项目的特色：
 >1. **代码开源**：为初学者提供了可学习和可复用的代码样例，方便大家快速入门。
@@ -37,7 +61,7 @@
 
 ## <img src="./imgs/icon/resource.png" width="25" />参考资源
 
-
+- 该项目部分代码参考了 [MT Book](https://github.com/NiuTrans/MTBook)，MT Book是一本高质量的机器翻译书籍。
 
 ## <img src="./imgs/icon/catalogue.png" width="25" />目录
 
