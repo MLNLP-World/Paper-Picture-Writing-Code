@@ -72,8 +72,8 @@
 | <img src="./imgs/category/line.png" width="100" />      | [折线图](./code/line_chart.tex) | [折线图](./notes/line_chart-latex.pdf) | <a href="https://github.com/JoeYing1019">  <img src="./imgs/profile/shijue_huang.jpg"  width="80" /></a> |
 | <img src="./imgs/category/histogram.png" width="100" />   | [柱状图](./code/histogram.tex) | [柱状图](./notes/histogram-latex.pdf)| <a href="https://github.com/yizhen20133868">  <img src="./imgs/profile/libo_qin.jpg"  width="80" /></a>|
 | <img src="./imgs/category/scatter.png" width="100" />    | [散点图](./code/scatter_diagram.tex) | [散点图](./notes/scatter_diagram.md) |<a href="https://github.com/libeineu">  <img src="./imgs/profile/bei_li.jpg"  width="80" /></a> |
-| <img src="./imgs/category/attention.png" width="100" />    | [注意力可视化(矩阵)](./code/attention.py)| [注意力可视化(矩阵)](./code/attention.md)  | <a href="https://github.com/SivilTaram">  <img src="./imgs/profile/qian_liu.jpg"  width="80" /></a> |
-| <img src="./imgs/category/attention_seq.png" width="100" />    | [注意力可视化(序列)](./code/text_attention.tex)| [注意力可视化(序列)](./code/text_attention.md)  | <a href="https://github.com/SivilTaram">  <img src="./imgs/profile/qian_liu.jpg"  width="80" /></a> |
+| <img src="./imgs/category/attention.png" width="100" />    | [注意力可视化(矩阵)](./code/attention.py)| [注意力可视化(矩阵)](./notes/attention.md)  | <a href="https://github.com/SivilTaram">  <img src="./imgs/profile/qian_liu.jpg"  width="80" /></a> |
+| <img src="./imgs/category/text_attention.png" width="100" />    | [注意力可视化(序列)](./code/text_attention.tex)| [注意力可视化(序列)](./notes/text_attention.md)  | <a href="https://github.com/SivilTaram">  <img src="./imgs/profile/qian_liu.jpg"  width="80" /></a> |
 | <img src="./imgs/category/struct.png" width="100" />    | [结构图](./code/transformer.tex) | [结构图](./notes/transformer.md) | <a href="https://github.com/libeineu">  <img src="./imgs/profile/bei_li.jpg"  width="80" /></a> |
 
 
