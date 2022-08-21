@@ -51,7 +51,7 @@
 >3. **类别广繁**：涵盖AI论文画图中常用的几类画图代码。
 
 
-由于我们的水平有限，如有疏漏，还望谅解。谢谢大家，有任何问题欢迎随时指出。     
+由于我们的水平有限，如有错误与疏漏，还望谅解，有任何问题欢迎随时指出，谢谢大家。     
 本项目所用徽章来自互联网，如侵犯了您的图片版权请联系我们删除，谢谢。
 
 ## <img src="./imgs/icon/intro.png" width="25" />项目简介
@@ -61,7 +61,7 @@
 
 ## <img src="./imgs/icon/resource.png" width="25" />参考资源
 
-- 该项目部分代码参考了 [MT Book](https://github.com/NiuTrans/MTBook)，MT Book是一本高质量的机器翻译书籍。书中所有的latex代码已经开源，也可以作为大家latex画图的一个参考。
+该项目部分代码参考了 [MT Book](https://github.com/NiuTrans/MTBook)，MT Book是一本高质量的机器翻译书籍。书中所有的latex代码已经开源，也可以作为大家latex画图的一个参考。
 
 ## <img src="./imgs/icon/catalogue.png" width="25" />目录
 
