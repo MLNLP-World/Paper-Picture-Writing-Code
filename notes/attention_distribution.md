@@ -85,3 +85,27 @@
 其中yshift控制label之间的距离
 
 <div align=center><img  src ="../imgs/notes/attention_distribution_full.jpg"/></div> 
+
+## 不同超参数的选择
+
+```
+# 选用不同的颜色，上述的颜色是蒂芙尼蓝（fill=tiffanyblue），同样也可以根据点的大小来直观的显示出注意力的分布情况
+
+\begin{scope}[scale=0.9,yshift=0.12in]
+    \foreach \i / \j / \c / \z in
+    {   0/5/1/50, 1/5/1/30, 2/5/1/70, 3/5/1/50, 4/5/1/20, 5/5/1/90,
+        0/4/1/10, 1/4/1/60, 2/4/1/30, 3/4/1/40, 4/4/1/40, 5/4/1/40,
+        0/3/1/30, 1/3/1/20, 2/3/1/40, 3/3/1/40, 4/3/1/30, 5/3/1/50,
+        0/2/1/50, 1/2/1/90, 2/2/1/30, 3/2/1/70, 4/2/1/20, 5/2/1/40,
+        0/1/1/20, 1/1/1/10, 2/1/1/30, 3/1/1/40, 4/1/1/60, 5/1/1/40,
+        0/0/1/10, 1/0/1/20, 2/0/1/30, 3/0/1/40, 4/0/1/20, 5/0/1/80}
+        \node[elementnode,minimum size=0.6*1.2cm*\c*\z*0.01,inner sep=0pt,fill=tiffanyblue!\z] (a\i\j) at (0.5*1.8cm*\i-3.8*0.5*1.8cm,0.5*1.8cm*\j-0.7*1.8cm) {};
+```
+
+这里通过一个简单的技巧来利用\z来直接对\c进行缩放，省去了逐点修改的麻烦
+
+<div align=center><img  src ="../imgs/notes/attention_distribution_3.jpg"/></div> 
+
+猛男粉！！！
+
+<div align=center><img  src ="../imgs/notes/attention_distribution_4.jpg"/></div> 
