@@ -73,6 +73,7 @@
 | <img src="./imgs/category/histogram.png" width="100" />   | [柱状图](./code/histogram.tex) | [柱状图](./notes/histogram-latex.pdf)| <a href="https://github.com/yizhen20133868">  <img src="./imgs/profile/libo_qin.jpg"  width="80" /></a>|
 | <img src="./imgs/category/scatter.png" width="100" />    | [散点图](./code/scatter_diagram.tex) | [散点图](./notes/scatter_diagram.md) |<a href="https://github.com/libeineu">  <img src="./imgs/profile/bei_li.jpg"  width="80" /></a> |
 | <img src="./imgs/category/text_attention.png" width="100" />    | [注意力序列可视化](./code/text_attention.tex)| [注意力序列可视化](./notes/text_attention.md)  | <a href="https://github.com/SivilTaram">  <img src="./imgs/profile/qian_liu.jpg"  width="80" /></a> |
+| <img src="./imgs/category/attention_distribution.png" width="100" /> | [注意力分布](./code/x x.tex) | [注意力分布](./notes/xx.md) | <a href="https://github.com/libeineu">  <img src="./imgs/profile/bei_li.jpg"  width="80" /></a> |
 | <img src="./imgs/category/struct.png" width="100" />    | [结构图](./code/transformer.tex) | [结构图](./notes/transformer.md) | <a href="https://github.com/libeineu">  <img src="./imgs/profile/bei_li.jpg"  width="80" /></a> |
 
 
