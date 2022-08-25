@@ -16,7 +16,7 @@
    	<a href="https://github.com/MLNLP-World/Paper-Picture-Writing-Code/stargazers">
        <img alt="stars" src="https://img.shields.io/github/stars/MLNLP-World/Paper-Picture-Writing-Code" />
   	</a>
-  	<a href="https://github.com/MLNLP-World/Paper_Writing_Tips/network/members">
+  	<a href="https://github.com/MLNLP-World/Paper-Picture-Writing-Code/network/members">
        <img alt="FORK" src="https://img.shields.io/github/forks/MLNLP-World/Paper-Picture-Writing-Code?color=FF8000" />
   	</a>
     <a href="https://github.com/MLNLP-World/Paper-Picture-Writing-Code/issues">
