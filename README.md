@@ -65,16 +65,82 @@
 
 ## <img src="./latex/imgs/icon/catalogue.png" width="25" />目录
 
+
 
-| 图类别                                                       | Latex代码                                                    | Latex笔记                                                    | Matplotlib代码                               | Matplotlib笔记                                | 贡献者                                                       |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------------------------------- | --------------------------------------------- | ------------------------------------------------------------ |
-| <img src="./matplotlib/imgs/category/intro.png" width="100" /> | [引言](./README.md)                                          |                                                              |                                              |                                               | <a href="https://github.com/YudiZh">  <img src="./matplotlib/imgs/profile/yudi_zhang.jpg"  width="80" /></a> |
-| <img src="./matplotlib/imgs/category/line_chart.png" width="100" /> | [折线图](./latex/code/line_chart.tex)、[带误差条的折线图](./latex/code/line_chart_with_error_bar.tex) | [折线图](./latex/notes/line_chart.pdf)、[带误差条的折线图](./latex/notes/line_chart_with_error_bar.pdf) | [折线图](./matplotlib/code/line_chart.py)    | [折线图](./matplotlib/notes/line_chart.md)    | <a href="https://github.com/JoeYing1019">  <img src="./matplotlib/imgs/profile/shijue_huang.jpg"  width="80" /></a><a href="https://github.com/yizhen20133868"><img src="./matplotlib/imgs/profile/libo_qin.jpg"  width="80" /></a> |
-| <img src="./matplotlib/imgs/category/bar_chart.png" width="100" /> | [柱状图](./latex/code/histogram.tex)                         | [柱状图](./latex/notes/histogram-latex.pdf)                  | [柱状图](./matplotlib/code/bar_chart.py)     | [柱状图](./matplotlib/notes/bar_chart.md)     | <a href="https://github.com/yizhen20133868">  <img src="./matplotlib/imgs/profile/libo_qin.jpg"  width="80" /></a><a href="https://github.com/JoeYing1019">  <img src="./matplotlib/imgs/profile/shijue_huang.jpg"  width="80" /></a> |
-| <img src="./matplotlib/imgs/category/scatter_matplotlab.jpg" width="100" /> | [散点图](./latex/code/scatter_diagram.tex)                   | [散点图](./latex/notes/scatter_diagram.md)                   | [散点图](./matplotlib/code/scatter_chart.py) | [散点图](./matplotlib/notes/scatter_chart.md) | <a href="https://github.com/libeineu">  <img src="./matplotlib/imgs/profile/bei_li.jpg"  width="80" /></a> |
-| <img src="./matplotlib/imgs/category/attention.png" width="100" /> | [注意力分布](./latex/code/attention_distribution.tex)        | [注意力分布](./latex/code/attention_distribution.tex)        | [注意力分布](./matplotlib/code/attention.py) | [注意力分布](./matplotlib/notes/attention.md) | <a href="https://github.com/libeineu">  <img src="./matplotlib/imgs/profile/bei_li.jpg"  width="80" /></a><a href="https://github.com/SivilTaram">  <img src="./matplotlib/imgs/profile/qian_liu.jpg"  width="80" /></a> |
-| <img src="./latex/imgs/category/text_attention.png" width="100" /> | [注意力序列可视化](./latex/code/text_attention.tex)          | [注意力序列可视化](./latex/notes/text_attention.md)          |                                              |                                               | <a href="https://github.com/SivilTaram">  <img src="./latex/imgs/profile/qian_liu.jpg"  width="80" /></a> |
-| <img src="./latex/imgs/category/struct.png" width="100" />   | [结构图](./latex/code/transformer.tex)                       | [结构图](./latex/notes/transformer.md)                       |                                              |                                               | <a href="https://github.com/libeineu">  <img src="./latex/imgs/profile/bei_li.jpg"  width="80" /></a> |
+<table>
+<thead>
+<tr>
+<th>图类别</th>
+<th>Latex代码</th>
+<th>Latex笔记</th>
+<th>Matplotlib代码</th>
+<th>Matplotlib笔记</th>
+<th>贡献者</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="./matplotlib/imgs/category/intro.png" width="100" /></td>
+<td><a href="./README.md">引言</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a href="https://github.com/YudiZh">  <img src="./matplotlib/imgs/profile/yudi_zhang.jpg"  width="50" /></a></td>
+</tr>
+<tr>
+<td><img src="./matplotlib/imgs/category/line_chart.png" width="100" /></td>
+<td><a href="./latex/code/line_chart.tex">折线图</a>、<br />
+  <a href="./latex/code/line_chart_with_error_bar.tex">带误差条的<br />折线图</a></td>
+<td><a href="./latex/notes/line_chart.pdf">折线图</a>、<br />
+  <a href="./latex/notes/line_chart_with_error_bar.pdf">带误差条的<br />折线图</a></td>
+<td><a href="./matplotlib/code/line_chart.py">折线图</a></td>
+<td><a href="./matplotlib/notes/line_chart.md">折线图</a></td>
+<td><a href="https://github.com/JoeYing1019">  <img src="./matplotlib/imgs/profile/shijue_huang.jpg"  width="50" /></a><a href="https://github.com/yizhen20133868"><img src="./matplotlib/imgs/profile/libo_qin.jpg"  width="50" /></a></td>
+</tr>
+<tr>
+<td><img src="./matplotlib/imgs/category/bar_chart.png" width="100" /></td>
+<td><a href="./latex/code/histogram.tex">柱状图</a></td>
+<td><a href="./latex/notes/histogram-latex.pdf">柱状图</a></td>
+<td><a href="./matplotlib/code/bar_chart.py">柱状图</a></td>
+<td><a href="./matplotlib/notes/bar_chart.md">柱状图</a></td>
+<td><a href="https://github.com/yizhen20133868">  <img src="./matplotlib/imgs/profile/libo_qin.jpg"  width="50" /></a><a href="https://github.com/JoeYing1019">  <img src="./matplotlib/imgs/profile/shijue_huang.jpg"  width="50" /></a></td>
+</tr>
+<tr>
+<td><img src="./matplotlib/imgs/category/scatter_matplotlab.jpg" width="100" /></td>
+<td><a href="./latex/code/scatter_diagram.tex">散点图</a></td>
+<td><a href="./latex/notes/scatter_diagram.md">散点图</a></td>
+<td><a href="./matplotlib/code/scatter_chart.py">散点图</a></td>
+<td><a href="./matplotlib/notes/scatter_chart.md">散点图</a></td>
+<td><a href="https://github.com/libeineu">  <img src="./matplotlib/imgs/profile/bei_li.jpg"  width="50" /></a></td>
+</tr>
+<tr>
+<td><img src="./matplotlib/imgs/category/attention.png" width="100" /></td>
+<td><a href="./latex/code/attention_distribution.tex">注意力分布</a></td>
+<td><a href="./latex/code/attention_distribution.tex">注意力分布</a></td>
+<td><a href="./matplotlib/code/attention.py">注意力分布</a></td>
+<td><a href="./matplotlib/notes/attention.md">注意力分布</a></td>
+<td><a href="https://github.com/libeineu">  <img src="./matplotlib/imgs/profile/bei_li.jpg"  width="50" /></a><a href="https://github.com/SivilTaram">  <img src="./matplotlib/imgs/profile/qian_liu.jpg"  width="50" /></a></td>
+</tr>
+<tr>
+<td><img src="./latex/imgs/category/text_attention.png" width="100" /></td>
+<td><a href="./latex/code/text_attention.tex">注意力序列<br />可视化</a></td>
+<td><a href="./latex/notes/text_attention.md">注意力序列<br />可视化</a></td>
+<td></td>
+<td></td>
+<td><a href="https://github.com/SivilTaram">  <img src="./latex/imgs/profile/qian_liu.jpg"  width="50" /></a></td>
+</tr>
+<tr>
+<td><img src="./latex/imgs/category/struct.png" width="100" /></td>
+<td><a href="./latex/code/transformer.tex">结构图</a></td>
+<td><a href="./latex/notes/transformer.md">结构图</a></td>
+<td></td>
+<td></td>
+<td><a href="https://github.com/libeineu">  <img src="./latex/imgs/profile/bei_li.jpg"  width="50" /></a></td>
+</tr>
+</tbody>
+</table>
+
+
 
 
 
