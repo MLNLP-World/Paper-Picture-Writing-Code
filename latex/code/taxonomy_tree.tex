@@ -1,0 +1,101 @@
+% This file is from Weihao Xia, Jing-Hao Xue. A Survey on 3D-aware Image Synthesis. https://arxiv.org/abs/2210.14267
+
+
+\documentclass[letterpaper]{article} 
+%% tikz作图
+\usepackage{tikz}
+\usepackage{longtable}
+\usepackage{tikz-qtree}
+\usepackage[edges]{forest}
+\usetikzlibrary{trees} 
+
+\usepackage{charter} % Use the Charter font
+
+
+\begin{document}
+
+
+\begin{figure}[t!]
+\centering
+\tikzset{
+    my node/.style={
+        font=\small,
+        rectangle,
+        draw=#1!75,
+        align=justify,
+    }
+}
+\forestset{
+    % 设置tree格式
+    my tree style/.style={
+        for tree={grow=east,    % 从左至右
+            parent anchor=east, % 
+            child anchor=west,  
+        %设置parent node和child node的颜色、宽度等
+        where level=0{my node=black,text width=1.5em}{},
+        where level=1{my node=black,text width=8.5em}{},
+        where level=2{my node=black,text width=8.0em}{},
+        where level=3{my node=black,text width=15em}{},
+            l sep=1.5em,
+            forked edge,                %
+            fork sep=1em,               %
+            edge={draw=black!50, thick},                
+            if n children=3{for children={
+                    if n=2{calign with current}{}}
+            }{},
+            tier/.option=level,
+        }
+    }
+}
+% \scalebox{0.65}{
+% 逆序
+    \begin{forest}
+      my tree style
+[All
+    [3D Generative Models from Single Views 
+        [Conditional 3D GANs 
+            [Semantic Label]
+            [Image]
+        ]
+        [Unconditional 3D GANs 
+            [Interactive Editing]
+            [Efficient and Consistent Rendering
+            ]
+            [Efficient and Effective Representations]
+        ]
+    ] 
+    [3D Novel View Synthesis from Multiple Views
+        [Constrained $\rightarrow$ In-the-wild
+            [Static $\rightarrow$ Dynamic]
+            [Single $\rightarrow$ Large-scale]
+            [Calibrated $\rightarrow$ Uncalibrated]
+            [Dense $\rightarrow$ Sparse]
+        ]
+        [Speed up]
+        [Neural Scene Representation]
+    ]
+    [3D Control of 2D Generative Models
+        [3D Priors as Constraints
+            [3D Components into 2D GANs]
+            [3D Prior Knowledge]
+        ]
+        [3D Parameters as Controls
+            [Explicit Control over 3D Parameters]
+            [Control Factors from Pretrained Models]
+        ]
+        [3D Control Latent Directions
+            [Unsupervised]
+            [Supervised]
+        ]
+    ] 
+]
+\end{forest}
+% }
+\centering
+\caption{A systematic taxonomy.}
+\label{fig:phylogenetic_tree}
+\end{figure}
+
+
+
+\end{document}
