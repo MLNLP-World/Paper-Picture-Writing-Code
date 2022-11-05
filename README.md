@@ -135,6 +135,22 @@
 <td></td>
 <td><a href="https://github.com/libeineu">  <img src="./latex/imgs/profile/bei_li.jpg"  width="50" /></a></td>
 </tr>
+<tr>
+<td><img src="./latex/imgs/category/taxonomy_tree.png" width="100" /></td>
+<td><a href="./latex/code/taxonomy_tree.tex">分类图</a></td>
+<td><a href="./latex/code/taxonomy_tree.tex">分类图</a></td>
+<td></td>
+<td></td>
+<td><a href="https://github.com/libeineu">  <img src="./latex/imgs/profile/weihao_xia.png"  width="50" /></a></td>
+</tr>
+<tr>
+<td><img src="./latex/imgs/category/timeline.png" width="100" /></td>
+<td><a href="./latex/code/timeline.tex">时间线</a></td>
+<td><a href="./latex/code/timeline.tex">时间线</a></td>
+<td></td>
+<td></td>
+<td><a href="https://github.com/libeineu">  <img src="./latex/imgs/profile/weihao_xia.png"  width="50" /></a></td>
+</tr>
 </tbody>
 </table>
 
@@ -169,4 +185,5 @@
 <a href="https://github.com/JoeYing1019">  <img src="./latex/imgs/profile/shijue_huang.jpg"  width="80" /></a>
 <a href="https://github.com/YudiZh">  <img src="./latex/imgs/profile/yudi_zhang.jpg"  width="80" /></a>
 <a href="https://github.com/yizhen20133868">  <img src="./latex/imgs/profile/libo_qin.jpg"  width="80" /></a>
+<a href="https://github.com/weihaox">  <img src="./latex/imgs/profile/weihao_xia.png"  width="80" /></a>
 
